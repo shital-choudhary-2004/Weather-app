@@ -1,16 +1,95 @@
-# React + Vite
+ 🌦️ Weather App
+       A responsive Weather Application built using React + Vite that allows users to search for any city and 
+       view real-time weather information using the OpenWeatherMap API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
 
-Currently, two official plugins are available:
+- Search weather by city name
+- Real-time weather data
+- Displays:
+  - Temperature
+  - Weather Condition
+  - Feels Like Temperature
+  - Humidity
+  - Wind Speed
+  - Atmospheric Pressure
+- Dynamic weather icons using React Icons
+- Responsive UI for desktop and mobile devices
+- Modern and attractive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🛠️ Technologies Used
 
-## React Compiler
+- React.js
+- Vite
+- Axios
+- Bootstrap
+- Bootstrap Icons
+- React Icons
+- OpenWeatherMap API
+- CSS3
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📂 Project Structure
 
-## Expanding the ESLint configuration
+weather-app/
+│
+├── public/
+│   └── image.jpg
+│
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── App.css
+│
+├── package.json
+└── README.md
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚙️ Installation
+
+1. Clone the repository
+
+git clone https://github.com/your-username/weather-app.git
+
+2. Navigate to the project folder
+
+cd weather-app
+
+3. Install dependencies
+
+npm install
+
+4. Start the development server
+
+npm run dev
+
+5. Open the browser and visit
+
+http://localhost:5173
+
+🔑 API Integration
+
+This project uses the OpenWeatherMap API to fetch real-time weather information.
+
+Get your API key from:
+
+https://openweathermap.org/api
+
+Replace the API key inside "App.jsx":
+
+const API_KEY = "YOUR_API_KEY";
+
+📸 Screenshots
+
+Add screenshots of the application here.
+
+🎯 Future Enhancements
+
+- 5-Day Weather Forecast
+- Current Location Weather
+- Dark/Light Theme
+- Weather History
+- Air Quality Index (AQI)
+
+👨‍💻 Author
+
+Shital Choudhary
+Full Stack Java Developer
