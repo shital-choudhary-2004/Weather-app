@@ -1,5 +1,6 @@
- 🌦️ Weather App
-       A responsive Weather Application built using React + Vite that allows users to search for any city and 
+ 🌦️ Weather App -
+     
+       A responsive Weather Application built using React that allows users to search for any city and 
        view real-time weather information using the OpenWeatherMap API.
 
 🚀 Features
@@ -24,9 +25,13 @@
 - Axios
 - Bootstrap
 - Bootstrap Icons
+- Font Awesome
 - React Icons
 - OpenWeatherMap API
 - CSS3
+
+ 📦 Dependencies -
+            npm install axios react-icons bootstrap bootstrap-icons @fortawesome/fontawesome-free
 
 📂 Project Structure
 
@@ -47,7 +52,7 @@ weather-app/
 
 1. Clone the repository
 
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/shital-choudhary-2004/weather-app.git
 
 2. Navigate to the project folder
 
